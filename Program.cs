@@ -18,7 +18,7 @@
 //     - Code to determine if the food consumed should increase player movement.
 //     - Code to increase movement speed.
 //     - Code to redisplay the food after it's consumed by the player.
-//     - Code to terminate execution if an unsupported key is entered.
+//     - Code to terminate execution if an unsupported key is entered. finished
 //     - Code to terminate execution if the terminal was resized.
 
 using System;
@@ -111,6 +111,9 @@ void Move()
             break;
 		case ConsoleKey.Escape:     
             shouldExit = true; 
+            break;
+        default:
+            shouldExit = true;
             break;
     }
 
