@@ -56,7 +56,19 @@ while (!shouldExit)
         Console.WriteLine("Console was resized. Program exiting.");
         shouldExit = true;
         continue; // Pule para a próxima iteração do loop para evitar que o restante do código seja executado
-    }    
+    }
+
+    if (ShouldFreezePlayer())
+    {
+        FreezePlayer();
+    }
+    else if (ShouldIncreaseSpeed())
+    {
+        int speed = ShouldIncreaseSpeed() ? 2 : 1;
+    }
+
+    
+
     Move();
 }
 
@@ -67,9 +79,19 @@ bool TerminalResized()
 }
 
 // Returns true if the player consumed the food
-bool PlayerConsumedFood() 
+bool PlayerConsumedFood()
 {
     return (playerX == foodX && playerY == foodY);
+}
+
+bool ShouldFreezePlayer()
+{
+    return player == states[2];
+}
+
+bool ShouldIncreaseSpeed()
+{
+    return player == states[1];
 }
 
 // Displays random food at a random location
@@ -103,7 +125,7 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-void Move()
+void Move(int speed = 1)
 {
     int lastX = playerX;
     int lastY = playerY;
@@ -130,7 +152,7 @@ void Move()
             break;
     }
 
-    if (PlayerConsumedFood()) 
+    if (PlayerConsumedFood())
     {
         ChangePlayer(); // change the appear of the player
         ShowFood();     // Show another food
