@@ -132,8 +132,8 @@ void Move()
 
     if (PlayerConsumedFood()) 
     {
-        ChangePlayer(); // Altere a aparência do jogador
-        ShowFood();     // Reexiba o alimento
+        ChangePlayer(); // change the appear of the player
+        ShowFood();     // Show another food
     }
 
     // Clear the characters at the previous position
