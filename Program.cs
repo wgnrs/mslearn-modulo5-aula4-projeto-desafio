@@ -66,6 +66,12 @@ bool TerminalResized()
     return height != Console.WindowHeight - 1 || width != Console.WindowWidth - 5;
 }
 
+// Returns true if the player consumed the food
+bool PlayerConsumedFood() 
+{
+    return (playerX == foodX && playerY == foodY);
+}
+
 // Displays random food at a random location
 void ShowFood()
 {
@@ -122,6 +128,12 @@ void Move()
         default:
             shouldExit = true;
             break;
+    }
+
+    if (PlayerConsumedFood()) 
+    {
+        ChangePlayer(); // Altere a aparência do jogador
+        ShowFood();     // Reexiba o alimento
     }
 
     // Clear the characters at the previous position

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mslearn-modulo5-aula4-projeto-desafio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b82e53ea6bd4ce1b19799cb3db0347c36acd601f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d960e97ceebc94274833553a421866ef8132d61")]
 [assembly: System.Reflection.AssemblyProductAttribute("mslearn-modulo5-aula4-projeto-desafio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mslearn-modulo5-aula4-projeto-desafio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
