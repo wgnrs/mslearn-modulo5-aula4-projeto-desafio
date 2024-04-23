@@ -12,3 +12,4 @@ G:\Cursos\Microsoft Learn\CSharp Parte 5\mslearn-modulo5-aula4-projeto-desafio\o
 G:\Cursos\Microsoft Learn\CSharp Parte 5\mslearn-modulo5-aula4-projeto-desafio\obj\Debug\net8.0\mslearn-modulo5-aula4-projeto-desafio.pdb
 G:\Cursos\Microsoft Learn\CSharp Parte 5\mslearn-modulo5-aula4-projeto-desafio\obj\Debug\net8.0\mslearn-modulo5-aula4-projeto-desafio.genruntimeconfig.cache
 G:\Cursos\Microsoft Learn\CSharp Parte 5\mslearn-modulo5-aula4-projeto-desafio\obj\Debug\net8.0\ref\mslearn-modulo5-aula4-projeto-desafio.dll
+G:\Cursos\Microsoft Learn\CSharp Parte 5\mslearn-modulo5-aula4-projeto-desafio\obj\Debug\net8.0\mslearn-modulo5-aula4-projeto-desafio.sourcelink.json
